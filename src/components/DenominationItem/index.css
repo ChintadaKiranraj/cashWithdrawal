@@ -1,0 +1,23 @@
+.buttons {
+  width: 100px;
+  height: 30px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  cursor: help;
+
+  border-style: solid;
+  background-color: #7c3aed;
+  color: #ffff;
+  font-weight: 900;
+  font: 20px;
+  border-color: aliceblue;
+  border-radius: 5px;
+}
+.buttonsContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  list-style: none;
+}
